@@ -1,0 +1,163 @@
+/* PC */
+@media (min-width: 64em){
+    
+}
+
+/* tablet & mobile */
+@media (max-width: 63.9375em)
+{
+    .btn{
+        padding: 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .contact-submit-btn{
+        font-size: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+    #footer .socials-list{
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content{
+        padding-top: 60%;
+    }
+    #content .content-ar{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    #content .content-debut{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    #content .head-aroud,
+    #content .head-aroud2{
+        font-size: 11px;
+    }
+    #content .md-1,
+    #content .md-2{
+        font-size: 11px;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 46.1875em){
+    /* common */
+    .s-col-full,
+    .s-full-width{
+        width: 100%!important;
+    }  
+    .s-mt-16{
+        margin-top: 8px;
+    }
+    /* header */
+    
+    #nav{
+        display: block;
+        left: 0;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block; 
+    }
+    #nav li a{
+        padding: 4px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a
+    {
+        padding: 6px 36px;
+        color: #fff;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+
+    display: block;
+    }
+    #header .search-btn {   
+        display: none;
+    }
+
+    #header img{
+        display: none;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    /* slider */
+    #slider .text-content {
+        margin-left: 8px;
+        position: unset;
+    }
+    #content .ar-artist {
+        font-size: 28px;
+
+    }       
+    #slider .text-content .text-heading {
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+    #slider .text-decription {
+        font-size: 13px;
+    }
+    /* content */
+    #content{
+        padding-top: 80%;
+    }
+    #content .content-ar{
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    #content .ar-artist {
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    #content .head-aroud,
+    #content .head-aroud2{
+        font-size: 6px;
+    }
+    #content .md-1,
+    #content .md-2{
+        font-size: 6px;
+    }
+    #content .head-aroud p,
+    #content .head-aroud2 p{
+        padding: unset;
+        margin-top: 2px;
+    }
+    #content .md-1 p,
+    #content .md-2 p{
+        padding: unset;
+        margin-top: 2px;
+    }
+    #content .md-2{
+        left: 36%;
+    }
+
+
+    /* footer */
+    #footer .btn-music{
+        display: block;
+    }
+    
+}
